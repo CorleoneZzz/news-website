@@ -64,3 +64,50 @@
     height: 16px;
     margin-right: 5px;
 }
+
+.side-bar-card {
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.05);
+    margin-top: 15px;
+    padding: 10px 0;
+}
+
+.side-bar-card.flag {
+    padding: 20px 0;
+}
+
+.side-bar-card.flag img {
+    width: 100px;
+    height: 100px;
+}
+
+.side-bar-card .text-lg {
+    font-size: 120%;
+}
+
+.side-bar-card .list-item {
+    color: #5e5e5e;
+}
+
+.side-bar-card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.side-bar-card .card-title,
+.side-bar-card .card-body .list-item {
+    display: block;
+    padding: 10px 15px;
+}
+
+.side-bar-card .list-item:hover {
+    text-decoration: none;
+    color: #444444;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.side-bar-card .list-item .item-info {
+    margin-top: 5px;
+    color: #999;
+}
