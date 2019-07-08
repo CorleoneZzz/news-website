@@ -111,3 +111,22 @@
     margin-top: 5px;
     color: #999;
 }
+
+.container-small {
+    max-width: 500px;
+}
+
+.btn-primary {
+    background-color: #ea0c3c;
+    border-color: #ea0c3c;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #d00e38;
+    border-color: #d00e38;
+}
+
+a:hover {
+    text-decoration: none;
+}
