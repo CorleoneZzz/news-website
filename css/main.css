@@ -95,6 +95,7 @@
 .side-bar-card.flag img {
     width: 100px;
     height: 100px;
+    max-width: 100%;
 }
 
 .side-bar-card .text-lg {
