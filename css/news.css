@@ -1,3 +1,19 @@
+.navbar-default {
+    position: relative;
+}
+
+.nav-menu {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #666;
+    font-size: 16px;
+    display: none;
+}
+
+.nav-menu:hover {
+    color: #333;
+}
 .navbar-brand {
     background-image: url("../img/logo.png");
     background-repeat: no-repeat;
@@ -24,6 +40,7 @@
 .news-body img {
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .side-bar-well {
@@ -71,4 +88,8 @@
     padding: 30px 0;
     color: #999;
     text-align: center;
+}
+
+#toggle-menu:checked ~ div {
+    display: block !important;
 }
